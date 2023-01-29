@@ -1,0 +1,377 @@
+/*------------------ Default CSS ------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #465058;
+}
+p{
+    line-height: 1.7;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Mukta', sans-serif;
+    color: #050A30;
+}
+img{
+    width: 100%;
+}
+.wrapper-area {
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.fix{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/*------------------ Header-area CSS ------------------*/
+.header-top {
+    background: #050a30;
+    padding: 15px 0px;
+}
+.header-top-left {
+    width: 50%;
+}
+.header-top-right {
+    width: 50%;
+}
+.header-social-profiles ul {
+    text-align: right;
+}
+.header-info ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.header-info ul li a {
+    color: #fff;
+    font-size: 14px;
+    transition: .3s;
+}
+.header-info ul li:hover a {
+    color: #ff7d01;
+}
+
+.header-social-profiles ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header-social-profiles ul li a {
+    color: #fff;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.header-social-profiles ul li:hover a {
+    color: #ff7d01;
+}
+
+.main-header-area {
+    padding: 20px 0px;
+}
+.main-header-left {
+    width: 30%;
+}
+.main-header-right {
+    width: 70%;
+}
+.logo-area a img {
+    width: 200px;
+    height: auto;
+}
+
+.main-menu-area ul {
+    text-align: right;
+}
+
+.main-menu-area ul li {
+    display: inline-block;
+}
+
+.main-menu-area ul li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #050a30;
+    transition: .3s;
+    padding: 16px 15px;
+    display: block;
+}
+.main-menu-area li:last-child a {
+    padding-right: 0;
+}
+
+.main-menu-area ul li:hover > a, .main-menu-area ul li.active > a {
+    color: #ff7d01;
+}
+.flex-item {
+    display: flex;
+    align-items: center;
+}
+
+/*------------------ Footer-Area CSS ------------------*/
+.footer-top-left {
+    width: 50%;
+}
+
+.footer-top-right {
+    width: 50%;
+}
+
+.footer-top-area {
+    background: #e6e6e6;
+    padding: 70px 0px;
+}
+.footer-contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.footer-contact-info ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #FF7D01;
+}
+
+.footer-contact-info ul li a {
+    font-size: 18px;
+    color: #050A30;
+    font-weight: 500;
+}
+.footer-contact-form {
+    padding: 0px 10px;
+}
+.footer-contact-form h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-contact-form input, .footer-contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 30px;
+    border: 2px solid #050A30;
+    background: transparent;
+    outline: none;
+}
+
+.footer-contact-form input::placeholder, .footer-contact-form textarea::placeholder {
+    color: #050A30;
+    font-family: 'Raleway';
+    padding: 5px 10px;
+}
+
+.footer-contact-form textarea {
+    height: 170px;
+}
+
+.footer-contact-form input[type="submit"] {
+    background: #050A30;
+    height: inherit;
+    border: none;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+    width: 50%;
+}
+.footer-contact-form input[type="submit"]:hover {
+    background: #FF7D01;
+}
+.footer-social-profiles {
+    margin-top: 40px;
+}
+.footer-social-profiles ul li:hover a {
+    color: #FF7D01;
+}
+
+.footer-social-profiles ul li a {
+    transition: .3s;
+}
+.footer-contact-info {
+    background: white;
+    padding: 30px;
+    margin-right: 40px;
+    box-shadow: 0px 0px 11px #c4c4c4;
+}
+
+.footer-bottom-area {
+    background: #050a30;
+    padding: 25px 0px;
+}
+
+.footer-copyright p {
+    text-align: center;
+    color: #fff;
+}
+
+.footer-copyright p a {
+    color: #ff7d01;
+}
+
+.footer-copyright p a:hover {
+    text-decoration: underline;
+    opacity: .8;
+}
+
+
+/*------------------ Slider-area CSS ------------------*/
+.slider-area {
+    background: url(img/slider/slider-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.flex-center {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slider-area:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 50%);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.slider-content{
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+.slider-content h2 {
+    color: #fff;
+    font-size: 50px;
+}
+a.pri-btn {
+    font-size: 16px;
+    color: #fff;
+    background: #050a30;
+    display: inline-block;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+    transition: .3s;
+}
+a.pri-btn:hover {
+    background: #ff7d01;
+}
+
+/*------------------ About-area CSS ------------------*/
+.about-area-left {
+    width: 50%;
+}
+
+.about-area-right {
+    width: 50%;
+}
+
+section.about-area {
+    padding: 70px 0px;
+}
+
+.about-content h2 {
+    font-size: 40px;
+}
+
+.about-content p { 
+    margin-bottom: 20px;
+}
+.about-content {
+    margin-right: 20px;
+}
+
+/*------------------ Service-area CSS ------------------*/
+section.service-area {
+    padding: 70px 0px;
+    background: #e6e6e6;
+}
+.single-service {
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+.single-service-content {
+    background: #050a30;
+    padding: 30px 15px;
+    margin-right: 15px;
+    text-align: center;
+    transition: .3s;
+}
+.single-service-content:hover {
+    background: #3b3b3b;
+    cursor: pointer;
+}
+
+.single-service-content h4 {
+    font-size: 26px;
+    color: #ff7d01;
+    margin-bottom: 10px;
+}
+
+.single-service-content p {
+    color: #fff;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title h2{
+    font-size: 50px;
+}
+
+/*------------------ CTA-area CSS ------------------*/
+section.cta-area {
+    background: #050a30;
+    padding: 100px 0px;
+}
+
+.cta-content h2 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 1.4;
+    padding: 0px 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.cta-content a.pri-btn {
+    background: #FF7D01;
+}
+
+.cta-content a.pri-btn:hover {
+    background: white;
+    color: #050A30;
+}
+
+.cta-content {
+    text-align: center;
+}

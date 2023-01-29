@@ -1,0 +1,147 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .wrapper-area {
+        max-width: 1140px;
+        padding: 0px 30px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .wrapper-area {
+        max-width: 960px;
+        padding: 0px 20px;
+    }
+    
+    .main-menu-area ul li a {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+
+    .slider-content h2 {
+        font-size: 35px;
+    }
+    /* Service Css */
+    .single-service {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .wrapper-area {
+        max-width: 720px;
+        padding: 0px 20px;
+    }
+
+    /* Header CSS */
+    .header-top-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header-top-right{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .header-social-profiles ul {
+        text-align: center;
+    }
+    .main-header-left, .main-header-right {
+        width: 100%;
+        text-align: center;
+    }
+    .flex-item {
+        display: inherit;
+    }
+    .main-menu-area ul {
+        text-align: center;
+    }
+    .main-menu-area ul li a {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .main-menu-area {
+        margin-top: 20px;
+    }
+
+    /* Footer Css */
+    .footer-top-left, .footer-top-right {
+        width: 100%;
+    }
+    .footer-contact-info {
+        margin-right: 0px;
+    }
+    .footer-top-right {
+        margin-top: 30px;
+    }
+    .footer-contact-form input[type="submit"] {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    /* Slider Css */
+    .slider-content h2 {
+        font-size: 25px;
+    }
+    a.pri-btn {
+        padding: 10px 45px;
+    }
+
+    /* About Css */
+    .about-area-left, .about-area-right {
+        width: 100%;
+    }
+    .about-content {
+        margin-right: 0px;
+    }
+
+    /* Service Css */
+    .single-service {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .single-service-content {
+        margin-right: 0px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+
+    /* CTA Css */
+    .cta-content h2 {
+        font-size: 20px;
+        padding: 0px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* Service Css */
+    .single-service {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    /* CTA Css */
+    .cta-content h2 {
+        font-size: 26px;
+        padding: 0px;
+    }
+    
+}
+
+
+
